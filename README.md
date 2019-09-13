@@ -25,7 +25,7 @@ extrafont::font_import(pattern = "Inconsolata")
 ```
 
 3. I met some running error during the run
--error: 
+- error: 
 Warning message:
 In system(cmd) : 'make' not found
 Quitting from lines 77-84 (Rcpp.Rmd) 
