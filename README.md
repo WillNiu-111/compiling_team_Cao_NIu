@@ -39,7 +39,8 @@ Error in Rscript_render(f, render_args, render_meta) :
 
    Exited with status 1.
 
-- Solution: I added a line of code into introduction.rmd ```{r, echo=FALSE}
+- Solution: I added a line of code into introduction.rmd 
+```{r, echo=FALSE}
 knitr::opts_chunk$set(error = TRUE)
 ```
 
