@@ -13,17 +13,19 @@ packages:
  'sessioninfo', 'bench', 'desc', 'DBI', 'dbplyr', 'ggbeeswarm', 'rlang', 'testthat', 'sloop', 'RSQLite', 'lobstr', 'tibble', 'profvis'.
 
 ## Error
-1. I gmet a 'emo' package error.
+1. I met a 'emo' package error.
 - For this problem: I installed 'devtools', then I used devtools::install_github("hadley/emo") to fix this error.
 
-2.When I start intalling fonts, an error occured which told me that it could not find the package to install the fonts.
+2. I met a fonts problem
+- When I start intalling fonts, an error occured which told me that it could not find the package to install the fonts.
 Solution: I installed a package called "extrafont"to finish the job. After that, the package was able to provide a function called "font_import" to continue on the fonts job .
 ```{r}
 library("extrafont")
 extrafont::font_import(pattern = "Inconsolata")
 ```
 
-3. error: 
+3. I met some running error during the run
+-error: 
 Warning message:
 In system(cmd) : 'make' not found
 Quitting from lines 77-84 (Rcpp.Rmd) 
