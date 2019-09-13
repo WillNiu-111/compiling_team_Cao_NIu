@@ -43,4 +43,4 @@ Error in Rscript_render(f, render_args, render_meta) :
 knitr::opts_chunk$set(error = TRUE)
 ```
 
-After I solved all these problems and error. I finally got a PDF version of Advanced R.
+Finally after 5 hours' fighting with bugs I got the pdf version of the ADV_R BOOK!
